@@ -1,10 +1,10 @@
-# 📊 NarrateIQ — AI-Powered Analyst Report Generator
+# NarrateIQ — AI-Powered Analyst Report Generator
 
 NarrateIQ is an AI-powered data analysis tool that transforms any CSV dataset into a 
 professional analyst report — with automated data quality checks, AI-written insights, 
 and an interactive Q&A assistant — in seconds.
 
-## 🎯 What It Does
+## What It Does
 
 1. **Upload any CSV** — sales data, survey responses, financial records, anything
 2. **Automated Data Quality Audit** — health score, missing values, duplicate detection
@@ -12,13 +12,13 @@ and an interactive Q&A assistant — in seconds.
 4. **Interactive Q&A** — ask follow-up questions about the report in plain English
 5. **Download Report** — export as a styled HTML report, printable to PDF
 
-## 💡 Why I Built This
+## Why I Built This
 
 As a data analyst, writing narrative reports from data is one of the most time-consuming 
 parts of the workflow. NarrateIQ automates that last mile — turning raw data into 
 stakeholder-ready insights in one click.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -28,7 +28,7 @@ stakeholder-ready insights in one click.
 | Report Generation | HTML, CSS |
 | Prompt Engineering | Role prompting, context summarization |
 
-## 🏗️ Architecture
+## Architecture
 ```
 CSV Upload → Data Profiler → OpenAI API → HTML Report Generator → Streamlit App
 ```
@@ -41,7 +41,7 @@ returns structured analyst report
 with data quality metrics
 - **app.py** — Streamlit interface with progress tracking, report display, and Q&A chat
 
-## 🚀 Run Locally
+## Run Locally
 
 1. Clone the repo:
 ```bash
@@ -83,7 +83,7 @@ narrateiq/
 └── .gitignore
 ```
 
-## 🔑 Key Technical Decisions
+## Key Technical Decisions
 
 - **Data summarization before LLM prompting** — handles datasets of any size by 
 profiling first, solving the context window problem
